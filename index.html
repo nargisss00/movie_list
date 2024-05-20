@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar container">
+        <div class="options">
+          <div class="popularMovies">Popular Movies</div>
+          <div class="newMovies">New Movies</div>
+        </div>
+
+        <div class="search">
+          <input type="search" placeholder="Search Movie..." />
+        </div>
+      </div>
+    </header>
+    <div class="movies container"></div>
+    <div class="pagination container">
+      <button onclick="goToPage(1)">1</button>
+      <button onclick="goToPage(2)">2</button>
+      <button onclick="goToPage(3)">3</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

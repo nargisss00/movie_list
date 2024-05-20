@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="details.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar container">
+        <div class="options">
+          <div class="popularMovies">Popular Movies</div>
+          <div class="newMovies">New Movies</div>
+        </div>
+
+        <div class="search">
+          <input type="search" id="searchInput" placeholder="Search Movie..." />
+        </div>
+      </div>
+    </header>
+
+   
+
+    <!-- Main content -->
+    <div class="container">
+      <!-- Movie details -->
+      <h1 id="movie-title"></h1>
+      <div id="movie-details">
+        <div class="line"></div>
+        <div class="movieImg">
+          <img id="movie-image" src="" alt="Movie Poster" />
+          <div class="movieDescription">
+            <h3 id="movie-title"></h3>
+            <p id="movie-overview"></p>
+            <span id="release-date"></span>
+            <span id="movie-genre"></span>
+            <span id="movie-budget"></span>
+            <span id="movie-runtime"></span>
+            <span id="vote-average"></span>
+            <!-- <a href="">Trailer</a> -->
+          </div>
+        </div>
+
+
+
+      <div id="actors-swiper" class="swiper-container">
+        <div class="swiper-wrapper">
+        
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div id="similar-movies">
+     
+      </div>
+    </div>
+
+    <script src="details.js"></script>
+  </body>
+</html>
